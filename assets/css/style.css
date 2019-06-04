@@ -1,0 +1,74 @@
+.ddmenu {
+    width: 750px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+  }
+  .ddmenu li {
+    list-style: none;
+  }
+  .ddmenu li a {
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 40px;
+    background: #3687e9;
+    text-decoration: none;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+  }
+  .ddmenu > li:hover > a {
+    background: #6fa1de;
+  }
+  .ddmenu li ul {
+    width: 150px;
+    display: none;
+    position: absolute;
+  }
+  .ddmenu > li li:hover > a {
+    color: olive;
+    background: #206ac4;
+  }
+  .ddmenu li ul li a {
+    border-top: 1px solid #eee;
+  }
+  
+  
+  .section1 {
+    height: 100vh;
+    background-color: #206ac4;
+  }
+  
+  .section2 {
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+  }
+  
+  .section3 {
+    height: 100vh;
+    background-color: lightcoral;
+    position: relative;
+    left: -100%;
+  }
+  
+  .arrow {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    display: none;
+    border-radius: 30px;
+  }
+  
+  .hello-scroll {
+    font-size: 60px;
+    text-align: center;
+    display: none;
+    margin: auto;
+  }
